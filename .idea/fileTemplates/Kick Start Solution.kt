@@ -6,6 +6,7 @@ fun main() {
     java.io.File(inputFileName).takeIf { it.exists() }?.also { System.setIn(it.inputStream()) }
 
     for (case in 1..readLine()!!.toInt()) {
+        TODO("Not solved yet")
         println("Case #$case: OK")
     }
 }
