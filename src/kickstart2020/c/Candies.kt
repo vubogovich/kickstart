@@ -1,6 +1,6 @@
 package kickstart2020.c
 
-// TODO check solution
+// TODO still slow
 fun main() {
     val inputFileName = "src/kickstart2020/c/Candies.in"
     java.io.File(inputFileName).takeIf { it.exists() }?.also { System.setIn(it.inputStream()) }
