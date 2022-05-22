@@ -14,6 +14,6 @@ fun main() {
                 .forEachIndexed { col, value -> sums[col + n - row] += value }
         }
 
-        println("Case #$case: ${sums.max()}")
+        println("Case #$case: ${sums.maxOrNull()}")
     }
 }

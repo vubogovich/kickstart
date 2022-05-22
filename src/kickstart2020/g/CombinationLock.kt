@@ -15,7 +15,7 @@ fun main() {
         val calc: (Int) -> Long = { target ->
             x.map {
                 listOf(abs(it - target), abs(it + n - target), abs(it - n - target))
-                    .min()?.toLong() ?: 0
+                    .minOrNull()?.toLong() ?: 0
             }.sum()
         }
 
