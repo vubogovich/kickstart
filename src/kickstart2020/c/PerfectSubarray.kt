@@ -1,6 +1,6 @@
 package kickstart2020.c
 
-// TODO Test set 2
+// TODO test set 2
 fun main() {
     val inputFileName = "src/kickstart2020/c/PerfectSubarray.in"
     java.io.File(inputFileName).takeIf { it.exists() }?.also { System.setIn(it.inputStream()) }
